@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 2</title>
+    <style>
+        table,
+        td,
+        th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+
+        table {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Tabla basica</h2>
+    <table>
+        <th>
+            <tr>
+                <th>Frontend</th>
+                <th>Backend</th>
+                <th>Orientada a objetos</th>
+                <th>Orientado a ciencias de datos</th>
+            </tr>
+        </th>
+        <tbody>
+            <tr>
+                <td>HTML</td>
+                <td>Python</td>
+                <td>Ruby</td>
+                <td>SQL</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Java</td>
+                <td>Visual Basic</td>
+                <td>Scala</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>PHP</td>
+                <td>C#</td>
+                <td>MATLAB</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+    <br>
+    <hr>
+    <section>
+        <h2>Tabla compleja</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Película y escritor (es)</th>
+                    <th>Presupuesto</th>
+                    <th>Año</th>
+                    <th>Género</th>
+                    <th>Enlace</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">El Padrino</td>
+                    <td>Mario Puzo</td>
+                    <td rowspan="2">6 millones USD</td>
+                    <td>1972</td>
+                    <td>Drama</td>
+                    <td rowspan="2"><a href="https://www.imdb.com/title/tt0068646/" target="_blank">Info</a></td>
+                </tr>
+                <tr>
+                    <td>Francis Ford Coppola</td>
+                    <td>1972</td>
+                    <td>Drama</td>
+                </tr>
+                <tr>
+                    <td>Titanic</td>
+                    <td>James Cameron</td>
+                    <td>200 millones USD</td>
+                    <td>1997</td>
+                    <td>Romance</td>
+                    <td><a href="https://www.imdb.com/title/tt0120338/" target="_blank">Info</a></td>
+                </tr>
+                <tr>
+                    <td>El Señor de los Anillos: El Retorno del Rey</td>
+                    <td>J.R.R. Tolkien</td>
+                    <td>94 millones USD</td>
+                    <td>2003</td>
+                    <td>Fantasía</td>
+                    <td><a href="https://www.imdb.com/title/tt0167260/" target="_blank">Info</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+
+</html>
