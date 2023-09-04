@@ -21,8 +21,8 @@ nav {
     padding-top: 10px;
     padding-bottom: 10px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content:space-between;
+    align-items:center;
 }
 
 .logo {
@@ -33,9 +33,10 @@ nav {
 
 .nav-links {
     list-style: none;
+    display:flex;
 }
 
-.nav-items {
+.nav-item a {
     display: inline-block;
     padding: 10px 15px;
     text-decoration: none;
