@@ -102,6 +102,8 @@ section.main-image>div {
 
 .img-background h1 {
     color: #ffffff;
+    text-align: center;
+    padding-top: 120px;
 }
 
 .img-content p {
@@ -135,31 +137,26 @@ section.main-image>div {
 
 footer {
     display: grid;
-    grid-template-columns: repeat(4, 25%);
+    grid-template-columns: repeat(4,25%);
     background-color: rgb(240, 240, 240);
 }
 
-footer>div{
-    padding: 20px;
+.uno{
+    grid-column: 1/2;
 }
 
-.table{
-    align-items: center;
+.dos{
+    grid-column: 2/3;
 }
 
-.Contacto{
-    padding-right: 200px;
+.tres{
+    grid-column: 3/4;
 }
 
-.aboutus{
-    padding-right: 200px;
+.cuatro{
+    grid-column: 4/5;
 }
 
-table tr td a{
-    padding: 200px 0px;
-}
-
-.map {
-    padding: 5px 0px 50px 550px;
-    
+.map{   
+    object-position: left;
 }
