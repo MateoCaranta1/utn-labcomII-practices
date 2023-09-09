@@ -143,10 +143,23 @@ footer>div{
     padding: 20px;
 }
 
-.map{
-    align-content: flex-end;
+.table{
+    align-items: center;
 }
 
 .Contacto{
-    padding-right: 500px;
+    padding-right: 200px;
+}
+
+.aboutus{
+    padding-right: 200px;
+}
+
+table tr td a{
+    padding: 200px 0px;
+}
+
+.map {
+    padding: 5px 0px 50px 550px;
+    
 }
